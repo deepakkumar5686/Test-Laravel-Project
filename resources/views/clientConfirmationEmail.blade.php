@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
-            .container1 {
+        .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
@@ -37,11 +37,11 @@
         }
         th {
             background-color: #f2f2f2;
-        }   
+        }  
     </style>
 </head>
 <body>
-<div class="container1">
+<div class="container">
     <h2>Order Booked</h2>
     <p>Dear Client,</p>
     <p>Your product has been successfully booked. Below are the details of your product and orders</p>
