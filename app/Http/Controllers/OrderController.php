@@ -101,7 +101,7 @@ class OrderController extends Controller
         // End
 
         // Sending email to client 
-        $user_email['to'] = "deepakkr8156@gmail.com";
+        $user_email['to'] = "warehouse@example.org";
         Mail::send('clientConfirmationEmail',$data,function($message) use ($user_email){
             $message->to( $user_email['to']);
             $message->subject('Order booked');

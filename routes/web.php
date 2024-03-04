@@ -5,8 +5,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\EmailController;
 use Illuminate\Support\Facades\Session;
 
-Route::get('/', [ProductControllers::class, 'index']);
-//Route::get('/', [ProductControllers::class, 'index'])->middleware('apiauth');
+Route::get('/', [ProductControllers::class, 'index'])->middleware('apiauth');
 
 Route::get('/order', [ProductControllers::class, 'shipping'])->name('order.shipping');
 
