@@ -8,22 +8,8 @@
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link  rel="stylesheet" href="css/index.css">
 
-    <style>
-        /* Custom CSS for adjusting card and image height */
-    .product-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.product-details button {
-    margin-top: 10px; /* Adjust the margin as needed */
-    margin-bottom: 10px; /* Adjust the margin as needed */
-}
- 
-    </style>
 </head>
 
 <body>
