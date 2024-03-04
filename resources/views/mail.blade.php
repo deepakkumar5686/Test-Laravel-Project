@@ -6,8 +6,9 @@
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
     <style>
-                .container1 {
+        .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
@@ -39,9 +40,10 @@
             background-color: #f2f2f2;
         }   
     </style>
+
 </head>
 <body>
-<div class="container1">
+<div class="container">
         <h2>Order Confirmation</h2>
         <p>Dear Customer,</p>
         <p>Thank you for placing an order on our website. Your order details are as follows:</p>
